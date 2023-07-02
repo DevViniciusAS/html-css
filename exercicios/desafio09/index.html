@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Vídeos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: black;
+        }
+        h1 {
+            color: white;
+            margin-left: 30%;
+        }
+        .coluna{
+            float: left;
+            width: 50%;
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vídeos legais para assistir</h1>
+    <div class="row">
+        <div class="coluna">
+          <a href="video1.html"><img src="https://raw.githubusercontent.com/gustavoguanabara/html-css/master/desafios/modulo-01/d009/imagens/thumb-hardware.png" alt="Curso de Hardware" style="width:50%"></a>
+        </div>
+        <div class="coluna">
+          <a href="video2.html"><img src="https://raw.githubusercontent.com/gustavoguanabara/html-css/master/desafios/modulo-01/d009/imagens/thumb-html.png" alt="Curso de html5" style="width:50%"></a>
+        </div>
+        <div class="coluna">
+          <a href="video3.html"><img src="https://raw.githubusercontent.com/gustavoguanabara/html-css/master/desafios/modulo-01/d009/imagens/thumb-js.png" alt="Curso de JavaScript" style="width:50%"></a>
+        </div>
+        <div class="coluna">
+            <a href="video4.html"><img src="https://github.com/gustavoguanabara/html-css/blob/master/desafios/modulo-01/d009/imagens/thumb-python.png?raw=true" alt="Curso de Python" style="width:50%"></a>
+        </div>
+    </div>
+</body>
+</html>
