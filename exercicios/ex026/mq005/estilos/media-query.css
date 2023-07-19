@@ -9,6 +9,16 @@
         display: block;
     }
 
+    menu a {
+        border-radius: 7px;
+    }
+
+    menu a:hover {
+        background-color: rgba(192, 191, 191, 0.911);
+        color: black;
+        font-weight: bold;
+    }
+
     menu > ul > li {
         display: inline-block;
     }
